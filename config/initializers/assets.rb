@@ -3,6 +3,15 @@
 # Version of your assets, change this if you want to expire all your assets.
 Rails.application.config.assets.version = '1.0'
 
+Rails.application.config.assets.precompile += %w( jquery.js )
+Rails.application.config.assets.precompile += %w( bootstrap.min.js )
+Rails.application.config.assets.precompile += %w( custom.min.js )
+Rails.application.config.assets.precompile += %w( icheck.js )
+Rails.application.config.assets.precompile += %w( bootstrap.css )
+Rails.application.config.assets.precompile += %w( freelancer.css )
+Rails.application.config.assets.precompile += %w( green.css )
+Rails.application.config.assets.precompile += %w( red.css )
+
 # Add additional assets to the asset load path
 # Rails.application.config.assets.paths << Emoji.images_path
 
